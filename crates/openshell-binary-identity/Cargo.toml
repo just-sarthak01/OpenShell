@@ -4,15 +4,15 @@
 [package]
 name = "openshell-binary-identity"
 description = "Trusted executable identity resolution for OpenShell isolation backends"
-version.workspace = true
-edition.workspace = true
-rust-version.workspace = true
-license.workspace = true
-repository.workspace = true
+version.workspace = false
+edition.workspace = false
+rust-version.workspace = false
+license.workspace = false
+repository.workspace = false
 
 [dependencies]
 openshell-isolation-interface = { path = "../openshell-isolation-interface" }
-sha2 = { workspace = true }
+sha2 = { workspace = false }
 
 [lints]
-workspace = true
+workspace = false
